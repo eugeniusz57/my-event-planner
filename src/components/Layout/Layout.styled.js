@@ -2,8 +2,11 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Header = styled.header`
-  height: 92px;
+  display: flex;
+  align-items: center;
   width: 100%;
+  border-bottom: 1px solid #7b61ff;
+  padding: 22px 0;
 `;
 
 export const Nav = styled.nav`
@@ -23,7 +26,7 @@ export const Logo = styled(Link)`
 
 export const Search = styled.form`
   display: flex;
-  width: 410px;
+  min-width: 410px;
   padding: 12px;
   justify-content: space-between;
   align-items: center;
@@ -45,4 +48,13 @@ export const Inputsearch = styled.input`
   width: 100%;
   border: none;
   outline: none;
+`;
+
+export const Main = styled.main`
+  padding-top: 60px;
+  padding-bottom: 77px;
+  flex: 1;
+  background-image: url("src/assets/Background.png");
+  background-size: cover;
+  background-position: center;
 `;
