@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { Background } from "../../assets";
 
 export const Header = styled.header`
   display: flex;
@@ -54,7 +55,7 @@ export const Main = styled.main`
   padding-top: 60px;
   padding-bottom: 77px;
   flex: 1;
-  background-image: url("src/assets/Background.png");
+  background-image: url(${Background});
   background-size: cover;
   background-position: center;
 `;
