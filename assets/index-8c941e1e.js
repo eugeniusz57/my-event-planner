@@ -72,24 +72,24 @@ Error generating stack: `+o.message+`
   margin: 0 auto;
   padding: 0 100px;
   width: 1280px;
-`,Va=({children:e})=>j.jsx(p0,{children:e}),h0=Ft.header`
+`,Va=({children:e})=>j.jsx(p0,{children:e}),h0="/my-event-planner/assets/Background-c66b878a.png",m0="/my-event-planner/assets/search-0aabb50a.svg",v0=Ft.header`
   display: flex;
   align-items: center;
   width: 100%;
   border-bottom: 1px solid #7b61ff;
   padding: 22px 0;
-`,m0=Ft.nav`
+`,g0=Ft.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-`,v0=Ft(iv)`
+`,y0=Ft(iv)`
   color: #7b61ff;
   font-family: Alata;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-`,g0=Ft.form`
+`,w0=Ft.form`
   display: flex;
   min-width: 410px;
   padding: 12px;
@@ -107,15 +107,15 @@ Error generating stack: `+o.message+`
   font-style: normal;
   font-weight: 300;
   line-height: 100%;
-`,y0=Ft.input`
+`,S0=Ft.input`
   width: 100%;
   border: none;
   outline: none;
-`,w0=Ft.main`
+`,k0=Ft.main`
   padding-top: 60px;
   padding-bottom: 77px;
   flex: 1;
-  background-image: url("src/assets/Background.png");
+  background-image: url(${h0});
   background-size: cover;
   background-position: center;
-`,S0=()=>j.jsxs(j.Fragment,{children:[j.jsx(h0,{children:j.jsx(Va,{children:j.jsxs(m0,{children:[j.jsx(v0,{to:"/",children:"Event Planner"}),j.jsxs(g0,{children:[j.jsx("button",{children:j.jsx("img",{src:"/search.svg",alt:"search"})}),j.jsx(y0,{type:"search",placeholder:"Search by keywords"})]})]})})}),j.jsx(w0,{children:j.jsx(Va,{children:j.jsx(C.Suspense,{children:j.jsx(Xm,{})})})})]});function k0(){return j.jsx(j.Fragment,{children:j.jsx(Jm,{children:j.jsxs(or,{path:"/",element:j.jsx(S0,{}),children:[j.jsx(or,{index:!0,element:j.jsx(sv,{})}),j.jsx(or,{path:"/addeven",element:j.jsx(av,{})}),j.jsx(or,{path:"*",element:j.jsx(Gm,{to:"/"})})]})})})}li.createRoot(document.getElementById("root")).render(j.jsx(qt.StrictMode,{children:j.jsx(rv,{basename:"/my-event-planner/",children:j.jsx(k0,{})})}));
+`,x0=()=>j.jsxs(j.Fragment,{children:[j.jsx(v0,{children:j.jsx(Va,{children:j.jsxs(g0,{children:[j.jsx(y0,{to:"/",children:"Event Planner"}),j.jsxs(w0,{children:[j.jsx("button",{children:j.jsx("img",{src:m0,alt:"search"})}),j.jsx(S0,{type:"search",placeholder:"Search by keywords"})]})]})})}),j.jsx(k0,{children:j.jsx(Va,{children:j.jsx(C.Suspense,{children:j.jsx(Xm,{})})})})]});function E0(){return j.jsx(j.Fragment,{children:j.jsx(Jm,{children:j.jsxs(or,{path:"/",element:j.jsx(x0,{}),children:[j.jsx(or,{index:!0,element:j.jsx(sv,{})}),j.jsx(or,{path:"/addeven",element:j.jsx(av,{})}),j.jsx(or,{path:"*",element:j.jsx(Gm,{to:"/"})})]})})})}li.createRoot(document.getElementById("root")).render(j.jsx(qt.StrictMode,{children:j.jsx(rv,{basename:"/my-event-planner/",children:j.jsx(E0,{})})}));
